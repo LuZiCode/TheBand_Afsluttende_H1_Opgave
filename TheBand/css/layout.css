@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #555
+}
+
+
+.wrapper-body{
+    max-width: 1280px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-head{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-image: url(../img/banner.jpg);
+    background-position: 100%;
+}
+
+.logo{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.navigation{
+    display: flex;
+    height: 100%;
+    padding: 200px;
+    font-weight: bold;
+}
+
+.nav-item{
+    color: #000;
+    text-decoration: none;
+    align-items: center;
+    padding:12px;
+}
+
+.hero-box{
+    width: 100%;
+    height: 73.1vh;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.hero-txt-box{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 100%;
+    width: 50%;
+}
+
+.txt-headline{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.txt-paragraph{
+    font-size: .9em;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.txt-secondheadline{
+    font-size: 1em;
+    padding-left: 50px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.hero-img-box{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/theband.jpg);
+}
+
+.hero-img-box-live{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 100%;
+    width: 50%;
+    padding-top: 27px;
+}
+
+
+.hero-img-box-member {
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 50%;     
+    padding-left: 30px;     
+    padding-bottom: 20px;     
+    padding-top: 20px;
+    align-items: center;   
+}
+
+
+.hero-img-portrait {     
+    position: relative;     
+    padding-left: 10px;     
+    padding-right: 10px;     
+    float: left;   
+}
+
+.hero-img-box-row {     
+    width: 100%;     
+    max-width: 75em;   
+    margin-left: auto;     
+    margin-right: auto;     
+    margin-top: 0 0;          
+}
+
+.hero-img-box-member .hero-img-portrait img {     
+    width: 268px;
+} 
+
+.hero-img-box-member>div {     
+    padding: 30px 0 40px 0;   
+}
+
+.hero-img-box-member .hero-img-box-row>div {     
+    padding-bottom: 20px;   
+}
+
+.hero-img-live{
+    background-image: url(../img/concert.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 95%;
+}
+
+
+.page-foot{
+    /* width: 100%; */
+    height: 80px;
+    display: flex;
+    background-image: url(../img/banner_footer.jpg);
+    background-position: 100%;
+    /* border: 2px solid red; */
+    padding: 0px 40px;
+    align-items: center;
+}
+
+.footer-txt-box{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 80%;
+    display: flex;
+}
+
+.footer-txt-box p{
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    padding-top: 10px;
+}
+
+.footer-img-box{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 80%;
+    justify-content: space-between;
+    padding-left: 172px;
+}
+
+/* .footer-img-content{
+    padding-right: 40px;
+} */
+
+.footer-img{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.callphone{
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-img-box-information{
+    /* border: 2px solid rgb(0, 0, 0); */
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/information_section.png);
+}
